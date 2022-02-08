@@ -7,23 +7,14 @@
   <a href="https://open.vscode.dev/joaogcs/python-project-template"><img alt="Open in Visual Studio Code" src="https://open.vscode.dev/badges/open-in-vscode.svg"/></a>
 </p>
 
-# python-project-template
-
 Template for Python projects with Poetry, automation of semantic release with CI using GitHub Actions.
 
 **Summary**
 
 - [Installation and usage](#installation-and-usage)
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [`flake8` Plugin](#flake8-plugin)
-- [Violations](#violations)
-    - [Autofix support](#autofix-support)
-    - [Ignoring violations](#ignoring-violations)
-    - [Configuration](#configuration)
-- [Pre-commit](#pre-commit)
-- [Show your style](#show-your-style)
-- [Extra Resources](#extra-resources)
+  - [Installation](#installation)
+  - [Run](#run)
+- [Configuration](#configuration)
 - [Contributing](#contributing)
 - [Change log](#change-log)
 - [License](#license)
