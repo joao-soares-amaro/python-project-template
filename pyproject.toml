@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "python-project-template"
+version = "0.0.0"
+description = "Template for Python projects with Poetry, automation of semantic release with CI/CD using Github Actions."
+authors = ["joaogcs 28782752+joaogcs@users.noreply.github.com"]
+license = "MIT"
+packages = [
+    { include = "src" }
+]
+
+[tool.semantic_release]
+version_variable = [
+    "src/__init__.py:__version__",
+    "pyproject.toml:version",
+]
+branch = "master"
+upload_to_pypi = false
+upload_to_release = true
+build_command = "pip install poetry && poetry build"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+flake8 = "^4.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
