@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "python-project-template"
-version = "0.0.0"
+version = "0.1.0"
 description = "Template for Python projects with Poetry, automation of semantic release with CI/CD using Github Actions."
 authors = ["joaogcs 28782752+joaogcs@users.noreply.github.com"]
 license = "MIT"
