@@ -54,7 +54,7 @@ CLI flags always overwrite the config file.
 
 ## Contributing
 
-Thank you for considering making Tryceratops better for everyone!
+Thank you for considering making template better for everyone!
 
 Refer to [Contributing docs](docs/CONTRIBUTING.md).
 
